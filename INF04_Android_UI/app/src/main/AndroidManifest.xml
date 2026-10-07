@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="true"
+        android:label="INF.04 Layouty"
+        android:theme="@style/Theme.INF04">
+        <activity android:name=".Task7Activity" />
+        <activity android:name=".Task6Activity" />
+        <activity android:name=".Task5Activity" />
+        <activity android:name=".Task4Activity" />
+        <activity android:name=".Task3Activity" />
+        <activity android:name=".Task2Activity" />
+        <activity android:name=".Task1Activity" />
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

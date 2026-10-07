@@ -1,0 +1,15 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="INF.04 – Layouty Android" android:textSize="24sp" android:textStyle="bold" android:layout_marginBottom="16dp"/>
+        <Button android:id="@+id/b1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 1 – LinearLayout"/>
+        <Button android:id="@+id/b2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 2 – ConstraintLayout"/>
+        <Button android:id="@+id/b3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 3 – RelativeLayout"/>
+        <Button android:id="@+id/b4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 4 – FrameLayout"/>
+        <Button android:id="@+id/b5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 5 – TableLayout"/>
+        <Button android:id="@+id/b6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 6 – ScrollView"/>
+        <Button android:id="@+id/b7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 7 – RecyclerView + CardView"/>
+    </LinearLayout>
+</ScrollView>

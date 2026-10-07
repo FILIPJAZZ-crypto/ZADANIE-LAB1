@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center_horizontal">
+    <ImageView android:layout_width="96dp" android:layout_height="96dp" android:src="@drawable/ic_person" android:contentDescription="Logo"/>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Login" android:inputType="text"/>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Hasło" android:inputType="textPassword"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="16dp">
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Zaloguj"/>
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Anuluj"/>
+    </LinearLayout>
+</LinearLayout>
